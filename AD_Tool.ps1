@@ -17,7 +17,7 @@ Get-ADUser -Filter 'Name -like "*SSO*"' | FT Name,SamAccountName,UserPrincipalNa
 Get-ADUser -Filter 'UserPrincipalName -like "*korn*"' | FT Name,SamAccountName,UserPrincipalName -A
 
 # get groups of user with name like
-Get-ADUser -Filter 'UserPrincipalName -like "*schuep*"' | Get-ADPrincipalGroupMembership | Select Name
+Get-ADUser -Filter 'UserPrincipalName -like "*korn*"' | Get-ADPrincipalGroupMembership | Select Name
 
 # get groups for specific sso
 Get-ADPrincipalGroupMembership SSO  | select name
