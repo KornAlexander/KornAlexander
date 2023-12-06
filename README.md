@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @KornAlexander
-- 👀 I’m interested in BI, Power BI, Zebra BI, IBCS, Tabular Cubes, SQL, Paragliding
+- 👀 I’m interested in BI, Power BI, TrueChart4PBI, IBCS, Tabular Cubes, SQL, Paragliding
 - 🌱 I’m currently learning PowerShell
 - 💞️ I’m looking to collaborate on IBCS, Power BI
 - 📫 How to reach me Xing, LinkedIn, social media, or whatever floats your boat
