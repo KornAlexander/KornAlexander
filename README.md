@@ -13,22 +13,60 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ---
 
-## Featured Repositories
+## Repositories
 
 ### 🧰 [PBI-Tools](https://github.com/KornAlexander/PBI-Tools) — The Power BI Toolbox
 
-A comprehensive toolkit for Power BI development with **80+ scripts, templates, and tools**:
+A comprehensive toolkit for Power BI development with **80+ scripts, templates, and tools**, organized into the following areas:
 
-| Category | Highlights |
-|----------|-----------|
-| **Tabular Editor Macros** | 80+ curated C# macros organized into 10 categories — Measure Creation (Time Intelligence, YTD, M-1), Measure Formatting, Calculation Tables (Calendar, Measure Table), Calculation Groups (Time Intelligence, Units), Power Query, Model Refresh, and more |
-| **PIMP Script** | PowerShell & C# scripts that instantly add a Date Dimension, Last Refresh Table, Time Intelligence Calc Group, and Units Calc Group to any Power BI model |
-| **IBCS Templates** | IBCS-compliant Power BI templates and an IBCS Copilot project (PBIP format) |
-| **PBIRS Tools** | Troubleshooting tool (926-line data collector), monitoring reports, SQL catalog queries, and bulk-download scripts for Power BI Report Server |
-| **Data Model Toolbox** | HICO Data Model Toolbox macros with Stream Deck integration |
-| **Notebook Gallery** | Fabric Notebook combining BPA + Memory Analyzer + Lakehouse persistence |
-| **Table Templates** | Ready-to-use TMDL templates (Calendar, Last Refresh, Time Intelligence, Units) |
-| **Macro Parser & Extractor** | HTML tools to convert between MacroActions.json and individual .csx files |
+#### Tabular Editor Macros & Scripts
+
+The core of this repo — **93 curated C# macros** for Tabular Editor, organized into 10 categories:
+
+| Category | What's Inside |
+|----------|--------------|
+| **Measure Create** | Create explicit measures from columns, Time Intelligence (Y-1, Δ Y-1, Δ Y-1%), YTD, M-1, Replace Text in Measure |
+| **Measure Modify** | Format strings, dynamic FormatStringExpression for units, set IsAvailableInMDX to false for IDs |
+| **Calc Tables** | Calendar (TE2 & TE3), Empty Measure Table (TE2 & TE3), Value Parameters 1-10 |
+| **Calc Groups** | Time Intelligence, Units, Time Intelligence with Value Parameter |
+| **Power Query** | Create & Replace M Parameters |
+| **Model Refresh** | Refresh whole model, selected tables, or partitions with Calculate |
+| **Utilities** | Load BPA, DiscourageImplicitMeasures check, auto-organize into display folders, document model |
+| **Community Scripts** | Official TE Library, Bernat Agulló's collection, Nordgaard's scripts |
+
+Additional script tools:
+- **PIMP Script** — PowerShell (`PIMP-Script.ps1`) and C# (`Power BI-Pimp-Script.csx`) scripts that instantly add a Date Dimension, Last Refresh Table, Time Intelligence Calc Group, and Units Calc Group to any Power BI model
+- **Macro Parser & Extractor** — HTML tools to convert between `MacroActions.json` and individual `.csx` files
+- **Data Model Toolbox** — HICO Data Model Toolbox macros with Stream Deck integration
+- **Other MacroActions.json collections** — Curated configs from Alexander Korn, Eivind Haugen, Michael Kovalsky, and the Official TE + PBI Tips + Bernat bundle
+
+#### IBCS
+
+- **IBCS PBI Copilot** — Full PBIP project (dataset + report) with IBCS-compliant template
+- **IBCS Power BI Generator** — Standalone .exe
+- **IBCS Templates** — Adventure Works and SVG-based IBCS .pbix templates
+
+#### Power BI Report Server (PBIRS)
+
+- **Troubleshooting Tool** — 926-line PowerShell data collector for PBIRS diagnostics (logs, configs, service checks)
+- **Monitoring Reports** — PBIRS Monitoring and Job Monitoring .pbix files
+- **SQL Queries** — Catalog dimension view, unused reports detection
+- **Bulk Download** — Scripts to download all items from PBIRS folders
+
+#### Fabric & Monitoring
+
+- **Fabric Workspace Export/Import** — PowerShell pipeline using FabricPS-PBIP to export and import workspace items
+- **Notebook Gallery** — Fabric Notebook combining BPA + Memory Analyzer + Lakehouse persistence
+- **VertiPaq Analyzer SQL Views** — Column, Relationship, Summary, and Table views for VertiPaq analysis
+
+#### Templates
+
+- **Table Templates** — Ready-to-use TMDL files: Calendar, Calendar (Calc Table), Last Refresh, Measure Table, Time Intelligence, Units
+- **TMDL Repo** — Community Power Query functions (Calendar by Lars Schreiber)
+- **Calculation Group Time Intelligence** — Standalone .bim template
+- **LinkedIn Report Templates** — LinkedIn Connections and Ultimate LinkedIn Report .pbit files
+
+---
 
 ### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Report Fixer
 
@@ -40,13 +78,18 @@ A **Python-based Power BI Report Fixer** that runs in Microsoft Fabric Notebooks
 
 Three modes: Fix, Scan, Scan + Fix. Built on [Semantic Link Labs](https://github.com/microsoft/semantic-link-labs).
 
-### ⚡ [PowerShell](https://github.com/KornAlexander/PowerShell) — Utility Scripts
+---
 
-A collection of PowerShell scripts for daily automation:
-- **SQL Deploy** — Deploy multiple .sql files to SQL Server
-- **Active Directory** — AD group member queries, user lookups, group membership exports
-- **File Automation** — Archive rotation, subfolder creation, Excel data refresh
-- **Outlook** — Scan .msg files for keywords
+### ⚡ [PowerShell](https://github.com/KornAlexander/PowerShell) — General Utility Scripts
+
+A collection of PowerShell scripts for everyday IT automation — **not Power BI specific**:
+
+| Category | Scripts |
+|----------|---------|
+| **SQL** | Deploy multiple .sql files to SQL Server with auto-archival |
+| **Active Directory** | AD group member queries, recursive parent group lookup, user searches, CSV exports |
+| **File Management** | Archive rotation, subfolder creation, file check + email alerts, Excel data refresh, folder listing |
+| **Outlook** | Scan saved .msg files for keywords |
 
 ---
 
