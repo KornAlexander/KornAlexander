@@ -15,6 +15,18 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ## Repositories
 
+### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Report Fixer
+
+A **Python-based Power BI Report Fixer** that runs in Microsoft Fabric Notebooks with an interactive UI. Install with one line, launch with one line.
+
+**11 Fixers** across two categories:
+- **Report Fixers (PBIR):** Fix Pie Charts, Fix Bar Charts, Fix Column Charts, Fix Page Size, Hide Visual Filters
+- **Semantic Model Fixers (XMLA):** Discourage Implicit Measures, Add Calendar Table, Add Measure Table, Add Last Refresh Table, Add Units Calc Group, Add Time Intelligence Calc Group
+
+Three modes: Fix, Scan, Scan + Fix. Built on [Semantic Link Labs](https://github.com/microsoft/semantic-link-labs).
+
+---
+
 ### 🧰 [PBI-Tools](https://github.com/KornAlexander/PBI-Tools) — The Power BI Toolbox
 
 A comprehensive toolkit for Power BI development with **80+ scripts, templates, and tools**, organized into the following areas:
@@ -68,18 +80,6 @@ Additional script tools:
 
 ---
 
-### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Report Fixer
-
-A **Python-based Power BI Report Fixer** that runs in Microsoft Fabric Notebooks with an interactive UI. Install with one line, launch with one line.
-
-**11 Fixers** across two categories:
-- **Report Fixers (PBIR):** Fix Pie Charts, Fix Bar Charts, Fix Column Charts, Fix Page Size, Hide Visual Filters
-- **Semantic Model Fixers (XMLA):** Discourage Implicit Measures, Add Calendar Table, Add Measure Table, Add Last Refresh Table, Add Units Calc Group, Add Time Intelligence Calc Group
-
-Three modes: Fix, Scan, Scan + Fix. Built on [Semantic Link Labs](https://github.com/microsoft/semantic-link-labs).
-
----
-
 ### ⚡ [PowerShell](https://github.com/KornAlexander/PowerShell) — General Utility Scripts
 
 A collection of PowerShell scripts for everyday IT automation — **not Power BI specific**:
@@ -113,4 +113,4 @@ I speak at community events about Power BI tooling, data modeling, and report se
 
 [![Sessionize](https://img.shields.io/badge/Speaker%20Profile-Sessionize-1AB394?style=flat-square)](https://sessionize.com/alexander-korn)
 
-Past events include **Power BI Summit 2024** and **New Stars of Data 2023**.
+Past events include **Power BI Summit 2024**, **New Stars of Data 2023**, **HICO Vision-X-Future** (Frankfurt & Zürich), **Reid Havens Podcast**, and **AI or DIE Thinkers Talk** with Artur König & Marcus Wegener.
