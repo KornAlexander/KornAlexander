@@ -15,9 +15,9 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ## Repositories
 
-### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Report Fixer
+### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Fixer for Semantic Models and Report Design
 
-A **Python-based Power BI Report Fixer** that runs in Microsoft Fabric Notebooks with an interactive UI. Install with one line, launch with one line.
+A **Python-based Power BI Fixer** that runs in Microsoft Fabric Notebooks with an interactive UI. Install with one line, launch with one line.
 
 **11 Fixers** across two categories:
 - **Report Fixers (PBIR):** Fix Pie Charts, Fix Bar Charts, Fix Column Charts, Fix Page Size, Hide Visual Filters
