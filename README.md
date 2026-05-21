@@ -15,7 +15,7 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ## Repositories
 
-### � [Fabric-Demos](https://github.com/KornAlexander/Fabric-Demos) — End-to-end Microsoft Fabric Demos
+### 🚀 [Fabric-Demos](https://github.com/KornAlexander/Fabric-Demos) — End-to-end Microsoft Fabric Demos
 
 A collection of **end-to-end Microsoft Fabric demos** with one-click installers. Each demo follows the same architecture pattern — **REST API → Lakehouse → Direct Lake → Power BI** — so the code is reusable for any data source.
 
@@ -34,7 +34,7 @@ More demos coming soon.
 
 ---
 
-### �🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Fixer for Semantic Models and Report Design
+### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Fixer for Semantic Models and Report Design
 
 A **Python-based Power BI Fixer** that runs in Microsoft Fabric Notebooks with an interactive UI. Install with one line, launch with one line.
 
