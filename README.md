@@ -15,7 +15,26 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ## Repositories
 
-### 🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Fixer for Semantic Models and Report Design
+### � [Fabric-Demos](https://github.com/KornAlexander/Fabric-Demos) — End-to-end Microsoft Fabric Demos
+
+A collection of **end-to-end Microsoft Fabric demos** with one-click installers. Each demo follows the same architecture pattern — **REST API → Lakehouse → Direct Lake → Power BI** — so the code is reusable for any data source.
+
+Every demo ships two installer flavours that share the same `install()` function and produce identical results — create a folder, create the Lakehouse, then patch and POST every dependent item (notebooks, pipeline, semantic model, report, data agent) to the Fabric REST API:
+
+- **`Install-<demo>.ipynb`** — import into your Fabric workspace and *Run All*. Authenticates via `notebookutils`, auto-detects the current workspace. No local Python, no `az login`, no env vars.
+- **`Install-<demo>.py`** — run from your laptop. Authenticates via `azure-identity` (`DefaultAzureCredential` — picks up `az login`, VS Code, env vars, or interactive browser).
+
+No secrets are stored in the repo — API tokens are supplied at install time and only injected into the payload locally before being sent to Fabric.
+
+| Demo | What's Inside | Data Source |
+|------|---------------|-------------|
+| **Hochschul-Insights** | German higher-education statistics (Studierende, Personal, Finanzen) with an 8-page Power BI report, Direct Lake semantic model, and natural-language Data Agent | DESTATIS GENESIS REST API |
+
+More demos coming soon.
+
+---
+
+### �🔧 [pbi_fixer](https://github.com/KornAlexander/pbi_fixer) — Power BI Fixer for Semantic Models and Report Design
 
 A **Python-based Power BI Fixer** that runs in Microsoft Fabric Notebooks with an interactive UI. Install with one line, launch with one line.
 
@@ -90,6 +109,15 @@ A collection of PowerShell scripts for everyday IT automation — **not Power BI
 | **Active Directory** | AD group member queries, recursive parent group lookup, user searches, CSV exports |
 | **File Management** | Archive rotation, subfolder creation, file check + email alerts, Excel data refresh, folder listing |
 | **Outlook** | Scan saved .msg files for keywords |
+
+---
+
+### 🧪 More
+
+- **[fabric_developer_hub](https://github.com/KornAlexander/fabric_developer_hub)** — GitHub Pages site for the Fabric Developer Hub workload (mirror of `LukaszObst/fabric_developer_hub/docs`).
+- **[jump-and-run](https://github.com/KornAlexander/jump-and-run)** — Browser-based jump-and-run game (HTML/JS).
+- **[semantic-link-labs](https://github.com/KornAlexander/semantic-link-labs)** *(fork)* — Working fork of [microsoft/semantic-link-labs](https://github.com/microsoft/semantic-link-labs); contributing new fixers like `fix_whole_number_format()` upstream.
+- **[fabric-toolbox](https://github.com/KornAlexander/fabric-toolbox)** *(fork)* — Working fork of the Fabric CAT toolbox.
 
 ---
 
