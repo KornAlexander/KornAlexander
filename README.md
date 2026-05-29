@@ -118,6 +118,7 @@ A collection of PowerShell scripts for everyday IT automation — **not Power BI
 - **[jump-and-run](https://github.com/KornAlexander/jump-and-run)** — Browser-based jump-and-run game (HTML/JS).
 - **[semantic-link-labs](https://github.com/KornAlexander/semantic-link-labs)** *(fork)* — Working fork of [microsoft/semantic-link-labs](https://github.com/microsoft/semantic-link-labs); contributing new fixers like `fix_whole_number_format()` upstream.
 - **[fabric-toolbox](https://github.com/KornAlexander/fabric-toolbox)** *(fork)* — Working fork of the Fabric CAT toolbox.
+- **[Fabric-Notebooks](https://github.com/KornAlexander/Fabric-Notebooks)** — A public collection of Microsoft Fabric notebooks and utilities for Power BI report fixing, semantic model tooling, and data integration.
 
 ---
 
