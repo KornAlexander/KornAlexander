@@ -15,9 +15,9 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ## Repositories
 
-### 🧊 [Fabric-Apps](https://github.com/KornAlexander/Fabric-Apps) — 15 Fabric Apps: 3D twins, real-time maps, games and admin tools
+### 🧊 [Fabric-Apps](https://github.com/KornAlexander/Fabric-Apps) — 3D twins, real-time maps, games and admin tools on Microsoft Fabric
 
-Fifteen **Fabric Apps** in one repository — pro-code React apps that run *inside* Microsoft Fabric, signed in with your Fabric identity and reading from Lakehouse, Eventhouse or Direct Lake. Each app has its own README with a deploy path you can follow on your own tenant, a preview image, and in most cases a short demo.
+Pro-code React apps that run *inside* Microsoft Fabric, signed in with your Fabric identity and reading from Lakehouse, Eventhouse or Direct Lake. Each app has its own README with a deploy path you can follow on your own tenant, a preview image, and in most cases a short demo. Browse them at **[kornalexander.github.io/Fabric-Apps](https://kornalexander.github.io/Fabric-Apps/)**.
 
 | Category | Apps |
 |----------|------|
