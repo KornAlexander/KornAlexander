@@ -15,6 +15,23 @@ Helping businesses make better decisions through Actionable Reporting. Since 201
 
 ## Repositories
 
+### 🧊 [Fabric-Apps](https://github.com/KornAlexander/Fabric-Apps) — 15 Fabric Apps: 3D twins, real-time maps, games and admin tools
+
+Fifteen **Fabric Apps** in one repository — pro-code React apps that run *inside* Microsoft Fabric, signed in with your Fabric identity and reading from Lakehouse, Eventhouse or Direct Lake. Each app has its own README with a deploy path you can follow on your own tenant, a preview image, and in most cases a short demo.
+
+| Category | Apps |
+|----------|------|
+| **Digital twins** | Airport IQ - Live Approach, Flood Insights, Harbour Pulse, Helsinki Public Transport, Maritime Insights, Paragliding Insights |
+| **Analytics** | Climate Spiral, Higher Education Race Chart |
+| **Fabric tools** | Data Catalog, Governance Hub, Power BI Fixer |
+| **Games & learning** | Doom, Fabric Empires, IBCS Trainer, Jump and Run |
+
+The 3D apps are built entirely from **open geodata** — 1 m DGM1 terrain and LoD2 buildings, Copernicus DEM, OpenStreetMap, official orthophoto drapes. None of that is committed: each app rebuilds its own terrain from a documented pipeline, so the repository stays small and the sources stay verifiable.
+
+Two of the apps are not mine, and are credited as such in the repository: **Harbour Pulse** is [Fran Genoa](https://github.com/FranGenoa)'s project, and **Doom** is entirely [Sander van de Velde](https://github.com/sandervandevelde)'s — [sandervandevelde/Play-Doom-On-Microsoft-Fabric](https://github.com/sandervandevelde/Play-Doom-On-Microsoft-Fabric).
+
+---
+
 ### 🚀 [Fabric-Demos](https://github.com/KornAlexander/Fabric-Demos) — End-to-end Microsoft Fabric Demos
 
 A collection of **end-to-end Microsoft Fabric demos** with one-click installers. Each demo follows the same architecture pattern — **REST API → Lakehouse → Direct Lake → Power BI** — so the code is reusable for any data source.
