@@ -28,8 +28,6 @@ Fifteen **Fabric Apps** in one repository — pro-code React apps that run *insi
 
 The 3D apps are built entirely from **open geodata** — 1 m DGM1 terrain and LoD2 buildings, Copernicus DEM, OpenStreetMap, official orthophoto drapes. None of that is committed: each app rebuilds its own terrain from a documented pipeline, so the repository stays small and the sources stay verifiable.
 
-Two of the apps are not mine, and are credited as such in the repository: **Harbour Pulse** is [Fran Genoa](https://github.com/FranGenoa)'s project, and **Doom** is entirely [Sander van de Velde](https://github.com/sandervandevelde)'s — [sandervandevelde/Play-Doom-On-Microsoft-Fabric](https://github.com/sandervandevelde/Play-Doom-On-Microsoft-Fabric).
-
 ---
 
 ### 🚀 [Fabric-Demos](https://github.com/KornAlexander/Fabric-Demos) — End-to-end Microsoft Fabric Demos
